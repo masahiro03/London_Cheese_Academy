@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  <title>Cheese Academy London</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+
+
+
+<body>
+
+  <header class="site-header">
+    <h1 class="site-logo">Cheese Academy London</h1>
+    <nav class="site-nav" aria-label="メインナビゲーション">
+      <ul>
+        <li><a href="#about" data-i18n="navAbout">About</a></li>
+        <li><a href="#course" data-i18n="navCourse">Course</a></li>
+        <li><a href="#news" data-i18n="navNews">News</a></li>
+        <li><a href="#access" data-i18n="navAccess">Access</a></li>
+        <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+      </ul>
+    </nav>
+      <div class="language-switch" aria-label="表示言語" data-i18n-aria-label="languageLabel">
+          <button type="button" class="is-active" data-lang="ja" aria-pressed="true">JP</button>
+          <span aria-hidden="true">/</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+  </header> 
+
+
+
+  <main>
+    <!-- Hero -->
+
+    <section class="hero">
+
+    <div class="hero-description">
+      <p class="hero-description-Large" data-i18n="heroTitle">Mind The Cheese</p>
+      <p class="hero-description-Medium">
+        <span data-i18n="heroTagline">セカイを変えるチーズを作ろう</span><br>
+        <span data-i18n="heroDescription">チーズ職人養成学校「チーズアカデミーロンドン」</span>
+      </p>
+    </div>
+
+    <img src="./img/hero-london-cheese.png" alt="Main Background">
+
+    </section>  
+
+
+    <!-- About -->
+     <section class="about" id="about">
+      <div class="about-intro">
+        <h2 class="section-title-about"><span data-i18n="aboutTitle">ABOUT</span><br><br></h2>
+        <p class="section-description-about" data-i18n-html="aboutDescription">
+          チーズアカデミーについて<br><br><br>
+          チーズアカデミーロンドンは、チーズづくりの技術と知識を基礎から学べる、チーズ職人養成学校です。<br>
+          初心者から本格的にチーズ職人を目指す方まで、一人ひとりの目標に合わせた学びを提供します。
+          卒業後も、チーズづくりを日常生活に取り入れるためのサポートはもちろん、チーズ職人としての就職・<br>転職など、新たなキャリアへの挑戦も支援します。
+          チーズをつくる喜びから、未来の可能性へ。<br>
+          チーズアカデミーロンドンは、あなたの新しい一歩を応援します。
+        </p>
+      </div>
+
+      <div class="about-pictures">
+      <li>
+        <img src="./img/about_04.jpg" alt="About Image" data-i18n-alt="aboutImageAlt">
+        <img src="./img/about_03.jpg" alt="About Image" data-i18n-alt="aboutImageAlt">
+        <img src="./img/about_02.jpg" alt="About Image" data-i18n-alt="aboutImageAlt">
+        <img src="./img/about_01.jpg" alt="About Image" data-i18n-alt="aboutImageAlt">
+      </li> 
+      </div>
+
+    </section>
+
+
+    <!-- Course -->
+     <section class="course" id="course">
+      <div class="course-intro">
+        <h2 class="section-title-course"><span data-i18n="courseTitle">COURSE</span><br><br></h2>
+        <p class="course-description" data-i18n-html="courseIntro">
+      チーズづくりが初めての方でも、安心して学べるカリキュラム。<br>
+      経験豊富な専門家や現役チーズ職人の知識と技術を取り入れ、<br>
+      基礎から実践まで、段階的に学べる環境を整えています。
+        </p>
+      </div>
+
+      <div class="course-item">
+        <img class="course-image" src="./img/course_01.jpg" alt="Course Image" data-i18n-alt="courseImageAlt1">
+        
+        <div class="course-text">
+          <h3 class="course-title" data-i18n="course1Title">自然の中で学ぶ、本格的な実地研修</h3>
+          <p class="course-description" data-i18n-html="course1Description">
+        チーズアカデミーロンドンでは、豊かな自然に囲まれた農園で、
+        本格的な実地研修を行います。
+        実際のチーズづくりに使用される設備や環境を活用し、
+        原料の扱い方から製造工程まで、実践を通じて習得。
+        卒業後には、自分の力でチーズをつくり上げるための
+        確かな技術と自信を身につけることを目指します。
+          </p>
+        </div>
+      </div>
+
+
+
+      <div class="course-item">
+        
+        <div class="course-text">
+          <h3 class="course-title" data-i18n="course2Title">基礎から応用まで、専門知識を習得</h3>
+          <p class="course-description" data-i18n-html="course2Description">
+        おいしいチーズをつくるためには、技術だけでなく、
+        食材や発酵、衛生管理に関する正しい知識が欠かせません。
+        チーズアカデミーロンドンでは、経験豊富な講師陣のもと、
+        チーズづくりの基礎から専門的な知識まで幅広く学びます。
+        さらに、栄養学や食文化への理解を深めることで、
+        チーズづくりにとどまらない、食の世界への可能性を広げます。
+          </p>
+        </div>
+        <img class="course-image" src="./img/course_02.jpg" alt="Course Image" data-i18n-alt="courseImageAlt2">
+      </div>
+
+      <div class="course-item">
+        <img class="course-image" src="./img/course_03.jpg" alt="Course Image" data-i18n-alt="courseImageAlt3">
+        
+        <div class="course-text">
+          <h3 class="course-title" data-i18n="course3Title">学びの集大成、自分だけのチーズづくり</h3>
+          <p class="course-description" data-i18n-html="course3Description">
+        カリキュラムの最後の2ヶ月間は、卒業制作に挑戦します。
+        これまでに培った知識と技術を生かし、
+        自分自身の手でオリジナルのチーズを完成させます。
+        完成した作品は、一般参加者によるテイスティング審査で評価。
+        つくり手としての視点だけでなく、
+        消費者の声にも触れることで、新たな発見と成長につなげます。
+        学びの成果を実感できる、特別な機会です。
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- News -->
+     <section class="news" id="news">
+      <div class="news-intro">
+        <h2 class="section-title-news"><span data-i18n="newsTitle">NEWS</span><br><br></h2>
+        <p class="section-subtitle-news" data-i18n="newsSubtitle">ニュース</p>
+      </div>
+
+      
+
+          <div class="news-list">
+            <ul>
+              <li>
+              <article class="news-item">
+                <img class="news-image" src="./img/news_img.jpg" alt="News Image" data-i18n-alt="newsImageAlt1">
+                <div class="news-text">
+                  <!-- <h3 class="news-title">Kosuge Pizzaが渋谷でオープン</h3> -->
+                  <p class="news-description" data-i18n-html="newsItem1">
+                    <br>2026/7/25<br><br>
+                    チーズアカデミー卒業生のフルカワさんによる<br>
+                    ワインとチーズを楽しむコースがスタートしました。
+                  </p>
+                </div>
+              </article>
+              </li>
+          
+
+              <li>
+                <article class="news-item">
+                  <img class="news-image" src="./img/news_img2.jpg" alt="News Image" data-i18n-alt="newsImageAlt2">
+                  <div class="news-text">
+                  <!-- <h3 class="news-title">Kosuge Pizzaが渋谷でオープン</h3> -->
+                  <p class="news-description" data-i18n-html="newsItem2">
+                    <br>206/9/18<br><br>
+                    チーズアカデミー卒業生のルイスさんによる<br><br>
+                    話題のピザ屋が渋谷でオープンしました！
+                  </p>
+                  </div>
+                </article>
+              </li>
+          
+
+              <li>
+                <article class="news-item">
+                  <img class="news-image" src="./img/news_img3.jpg" alt="News Image" data-i18n-alt="newsImageAlt3">
+                  <div class="news-text">
+                  <!-- <h3 class="news-title">Kosuge Pizzaが渋谷でオープン</h3> -->
+                  <p class="news-description" data-i18n-html="newsItem3">
+                    <br>2026/10/25<br><br>
+                    チーズアカデミーの新コース<br><br>
+                    チーズアカデミー２がスタートします。
+                  </p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+      
+          <a class="news-more" href="news.html">More</a>
+
+    </section>
+
+     <!-- Access -->
+     <section class="access" id="access">
+      <div class ="access-intro">
+        <h2 class="section-title-access"><span data-i18n="accessTitle">Access</span><br><br></h2>
+        <h2 class="section-title-access-companyinfo"><span data-i18n="companyInfoTitle">会社情報</span><br><br></h2>
+      </div>
+    
+      <div class="access-map">
+        <iframe
+          src="https://www.google.com/maps?q=Borough+Market,+London&output=embed"
+          title="Borough Market, London map"
+          data-i18n-title="mapTitle"
+          width="100%"
+          height="450"
+          style="border: 0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="access-info">
+        <table class="access-info-table">
+          <tr>
+            <th data-i18n="schoolNameLabel">学校名</th>
+            <td data-i18n="schoolName">チーズアカデミーロンドン</td>
+          </tr>
+          <tr>
+            <th data-i18n="addressLabel">事務所所在地</th>
+            <td data-i18n="address">8 Southwark Street, London, SE1 1TL, United Kingdom</td>
+          </tr>
+          <tr>
+            <th data-i18n="phoneLabel">TEL</th>
+            <td>020 7407 1002</td>
+          </tr>
+          <tr>
+            <th data-i18n="faxLabel">FAX</th>
+            <td>020 7407 1003</td>
+          </tr>
+          <tr>
+            <th data-i18n="emailLabel">MAIL</th>
+            <td>dummy@cheeseacademy.london</td>
+          </tr>
+            </table>
+      </div>
+     </section>
+
+
+
+    <!-- Contact -->
+     <section class="contact" id="contact">
+        <div class ="contact-intro">
+          <h2 class="section-title-contact"><span data-i18n="contactTitle">Contact</span><br><br></h2>
+          <h2 class="section-title-contact-info"><span data-i18n="contactSubtitle">説明会お申し込み・お問い合わせ</span><br><br></h2>
+          <p class="section-description-contact" data-i18n-html="contactDescription">
+            ぜひ1度、足を運んでみませんか。説明会は随時開催中。<br>
+            その他、お問い合わせもお気軽にどうぞ。お待ちしております。<br><br>
+            ※チーズアカデミーは実際には存在しません。<br>
+              間違っても問い合わせしないようお願いいたします。
+          </p>
+        </div>
+
+
+        <div class="contact-form">
+          <form id="contact-form" action="submit_form.php" method="post">
+            <div class="form-row">
+              <label for="name" data-i18n="nameLabel">名前</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-row">
+              <label for="kana" data-i18n="kanaLabel">カタカナ</label>
+              <input type="text" id="kana" name="kana" required>
+            </div>
+
+            <div class="form-row">
+              <label for="email" data-i18n="emailFieldLabel">メールアドレス</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-row">
+              <label for="cheese_academy" data-i18n="discoveryLabel">知ったきっかけ</label>
+              <input type="text" id="cheese_academy" name="cheese_academy" required>
+            </div>
+
+            <fieldset class="motivation-options">
+              <legend data-i18n="motivationLegend">志望動機</legend>
+              <div class="motivation-choices">
+                <label><input type="checkbox" name="motivation" value="起業をしたい" data-i18n-value="motivation1"> <span data-i18n="motivation1">起業をしたい</span></label>
+                <label><input type="checkbox" name="motivation" value="チーズ系企業に就職・転職したい" data-i18n-value="motivation2"> <span data-i18n="motivation2">チーズ系企業に就職・転職したい</span></label>
+                <label><input type="checkbox" name="motivation" value="チーズと関わる仕事をしており、仕事に生かしたい" data-i18n-value="motivation3"> <span data-i18n="motivation3">チーズと関わる仕事をしており、仕事に生かしたい</span></label>
+                <label><input type="checkbox" name="motivation" value="チーズの教養を身につけたい" data-i18n-value="motivation4"> <span data-i18n="motivation4">チーズの教養を身につけたい</span></label>
+              </div>
+            </fieldset>
+
+            <div class="form-row form-row-message">
+              <label for="message" data-i18n="messageLabel">詳細</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button class="form-submit" type="submit" data-i18n="submitButton">送信</button>
+          </form>
+        </div>
+
+        <div class="roulette-modal" id="roulette-modal" hidden>
+          <section class="roulette-dialog" role="dialog" aria-modal="true" aria-labelledby="roulette-title">
+            <button class="roulette-close" id="roulette-close" type="button" aria-label="閉じる" data-i18n-aria-label="closeLabel">×</button>
+            <h2 id="roulette-title" data-i18n="rouletteTitle">抽選ルーレット</h2>
+            <p class="roulette-instruction" data-i18n="rouletteInstruction">ルーレットを回してクーポンにチャレンジ！</p>
+            <div class="roulette-stage">
+              <span class="roulette-pointer" aria-hidden="true"></span>
+              <div class="roulette-wheel" id="roulette-wheel" aria-label="当たり1区画、はずれ7区画" data-i18n-aria-label="rouletteWheelLabel">
+                <span class="roulette-label" style="--angle: 0deg" data-i18n="rouletteWinLabel">当たり</span>
+                <span class="roulette-label" style="--angle: 45deg" data-i18n="rouletteLoseLabel">はずれ</span>
+                <span class="roulette-label" style="--angle: 90deg" data-i18n="rouletteLoseLabel">はずれ</span>
+                <span class="roulette-label" style="--angle: 135deg" data-i18n="rouletteLoseLabel">はずれ</span>
+                <span class="roulette-label" style="--angle: 180deg" data-i18n="rouletteLoseLabel">はずれ</span>
+                <span class="roulette-label" style="--angle: 225deg" data-i18n="rouletteLoseLabel">はずれ</span>
+                <span class="roulette-label" style="--angle: 270deg" data-i18n="rouletteLoseLabel">はずれ</span>
+                <span class="roulette-label" style="--angle: 315deg" data-i18n="rouletteLoseLabel">はずれ</span>
+              </div>
+            </div>
+            <button class="roulette-spin" id="roulette-spin" type="button" data-i18n="rouletteSpin">回す</button>
+            <p class="roulette-result" id="roulette-result" aria-live="polite" data-i18n="roulettePrompt">ボタンを押してください</p>
+            <p class="roulette-coupon" id="roulette-coupon" hidden data-i18n="rouletteCoupon">当たり！クーポンを獲得しました。</p>
+          </section>
+        </div>
+    </section>
+
+  </main> 
+
+  <footer>
+    <div class="footer-text">
+      <p data-i18n="footerCopyright">Copyrights 2026 Cheese Academy London All Rights Reserved.</p>
+    </div>
+  </footer>
+
+
+  <!-- ここから上にコードを書く -->
+  <!-- この中に記述していく -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+
+
+
+</html>
